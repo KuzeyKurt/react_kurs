@@ -1,0 +1,139 @@
+.main_nav{
+	background: #F6F6F6;
+}
+.styleForCards{
+	border-radius: 5px;
+}
+.main_nav__content{
+	padding: 73px 0;
+	margin: 0 10px;
+}
+.main_nav__title{
+	font-size: 32px;
+	line-height: 29px;
+	letter-spacing: 0.96px;
+	margin-bottom: 55px;
+}
+.main_nav__cards{
+	height: 450px;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+	grid-template-areas: 
+	'a b c'
+	'a d f';
+}
+.main_nav__events{
+	grid-area: a;
+}
+.main_nav__events_wrapper{
+ max-width: 328px;
+ height: 100%;
+ background-image: url('../../img/events.jpg');
+ background-position: 50%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ align-items: end;
+ justify-content: end;
+}
+.main_nav__events_title_container{
+	
+}
+.styleForTitleContainer{
+	border-radius: 15px 0px 5px 0px;
+	background: rgba(255, 255, 255, 0.90);
+	box-shadow: -4px -2px 4px 0px rgba(0, 0, 0, 0.25);
+	width: 222px;
+	height: 57px;
+}
+.main_nav__events_title_text{
+	
+}
+.styleForTitleText{
+	color: #313131;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 57px;
+	max-width: fit-content;
+	margin: 0 auto;
+}
+
+.main_nav__collections{
+	grid-area: b;
+	
+	background-image: url('../../img/htfu.jpg');
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: end;
+	justify-content: end;
+}
+
+.main_nav__collections_title_container{
+
+}
+.main_nav__collections_title_text{
+
+}
+
+.main_nav__about{
+	grid-area: d;
+	
+	background-image: url('../../img/about.jpg');
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: end;
+	justify-content: end;
+}
+.main_nav__about_image{
+	
+}
+.main_nav__about_title_container{
+
+}
+.main_nav__about_title_text{
+
+}
+
+.main_nav__articles{
+	grid-area: c;
+	
+	background-image: url('../../img/articles.jpg');
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: end;
+	justify-content: end;
+}
+
+.main_nav__articles_title_container{
+
+}
+.main_nav__articles_title_text{
+
+}
+
+.main_nav__map{
+	grid-area: f;
+	
+	background-image: url('../../img/some.jpeg');
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: end;
+	justify-content: end;
+}
+
+.main_nav__map_title_container{
+
+}
+.main_nav__map_title_text{
+
+}

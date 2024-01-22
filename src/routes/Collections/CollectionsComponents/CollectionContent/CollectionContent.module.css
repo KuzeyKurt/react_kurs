@@ -1,0 +1,39 @@
+.collections__each_content{
+	padding: 0 0 70px 0;
+	margin: 0 10px;
+}
+.collections__each_text_title{
+	margin: 0 0 20px 0;
+}
+.collections__each_text_title p{
+	color: var(--Title, #9C9955);
+	font-size: 24px;
+}
+.collections__each_text_text {
+	max-width: 900px;
+}
+.collections__each_text_text p{
+	color: #232323;
+	font-size: 20px;
+	line-height: 33px; /* 165% */
+	letter-spacing: 0.4px;
+}
+.collections__each_text_text span{
+	color: #9C9955;
+font-size: 20px;
+line-height: 33px;
+letter-spacing: 0.4px;
+margin-left: 7px;
+cursor: pointer;
+}
+.collections__each_image{
+	max-width: 100%;
+	height: 440px;
+	margin-top: 40px;
+}
+.collections__each_image img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}

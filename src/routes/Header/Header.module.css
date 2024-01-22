@@ -1,0 +1,38 @@
+.header__wrapper{
+	line-height: 6vh;
+	height: 6vh;
+	background-color: #fff;
+}
+.header {
+	max-width: 1320px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.header__content_wrapper{
+
+}
+.header__nav {
+
+}
+.header__nav a {
+	margin: 0 22.5px;
+}
+
+.header__nav a:last-child {
+	margin-right: 0;
+}
+.header__nav a:hover{
+	color: #9C9955;
+	text-decoration: underline;
+}
+
+.header__logo {
+	text-transform: uppercase;
+	word-spacing: 10px;
+}
+
+.header__logo span {
+	font-weight: bold;
+}

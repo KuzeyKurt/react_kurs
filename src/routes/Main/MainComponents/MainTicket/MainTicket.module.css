@@ -1,0 +1,436 @@
+.main_ticket {
+	background: #F3F3F3;
+}
+
+.main_ticket__content {
+	padding: 73px 0;
+	margin: 0 10px;
+}
+
+.main_ticket__upper_text {}
+
+.main_ticket__title_limit {
+	display: flex;
+	align-items: center;
+
+}
+
+.main_ticket__title {
+	margin: 0 40px 0 0;
+}
+
+.main_ticket__title p {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 29px;
+	letter-spacing: 0.72px;
+}
+
+.main_ticket__age_limit {
+	width: 48px;
+	height: 25px;
+	border-radius: 5px;
+	border: 0.3px solid #d5d5d5;
+	background: #FFF;
+	box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.main_ticket__age_limit p {
+	font-weight: 300;
+	line-height: 23px;
+	letter-spacing: 0.45px;
+	text-align: center;
+}
+
+.main_ticket__subtitle {
+	margin: 17px 0;
+}
+
+.main_ticket__subtitle p {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 29px;
+	letter-spacing: 0.48px;
+}
+
+.main_ticket__dt_selection {
+	/* обёртка выбора даты и времени*/
+
+}
+
+
+.main_ticket__date_selection_wrapper {
+	/* обёртка варинтов выбора даты */
+	display: flex;
+	margin: 0 0 4px 0;
+}
+
+.main_ticket__date_selection:first-child {
+	margin: 0 3.5px 0 0;
+	background: #F8F8F8;
+}
+
+.main_ticket__date_selection:last-child {
+	margin: 0 0 0 3.5px;
+}
+
+.main_ticket__date_selection {
+	/* обёртка каждой даты */
+	width: 160px;
+	height: 110px;
+	border-radius: 5px;
+	border: 1px solid #E8E1C1;
+	background: #F8F8F8;
+	margin: 0 3.5px;
+}
+
+.main_ticket__date_selection_content {
+	cursor: pointer;
+}
+
+.main_ticket__date_selection_dw {}
+
+.main_ticket__date_selection_dw p {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 29px;
+	letter-spacing: 0.6px;
+	margin: 0 11px 0 0;
+	text-align: end;
+}
+
+.main_ticket__date_selection_nd {}
+
+.main_ticket__date_selection_nd p {
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 29px;
+	letter-spacing: 1.08px;
+	text-align: center;
+	margin: 0 0 7px 0;
+}
+
+.main_ticket__date_selection_month {}
+
+.main_ticket__date_selection_month p {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 29px;
+	letter-spacing: 0.6px;
+	text-align: center;
+}
+
+.main_ticket__time_selection_wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main_ticket__time_selection:first-child {
+	margin: 0 3.5px 0 0;
+}
+
+.main_ticket__time_selection:last-child {
+	margin: 0 0 0 3.5px;
+}
+
+.main_ticket__time_selection {
+	margin: 0 3.5px 5px 3.5px;
+	width: 159px;
+}
+
+.main_ticket__time_selection_content {}
+
+.main_ticket__time_selection_time {
+	cursor: pointer;
+	height: 55px;
+	border-radius: 5px;
+	border: 1px solid #E8E1C1;
+	background: #F8F8F8;
+}
+
+.main_ticket__time_selection_time p {
+
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 53px;
+	letter-spacing: 0.72px;
+	text-align: center;
+}
+
+.main_ticket__time_selection_quantity {
+	margin-top: 5px;
+}
+
+.main_ticket__time_selection_quantity p {
+	text-align: center;
+	font-size: 12px;
+	font-weight: 300;
+	letter-spacing: 0.36px;
+	text-decoration-line: underline;
+}
+
+
+.main_ticket__categories {}
+
+.main_ticket__categories_content {}
+
+.main_ticket__categories_warning p {
+	letter-spacing: 0.45px;
+
+}
+
+.main_ticket__categories_warning {
+	margin: 16px 0 40px 0;
+}
+
+
+.main_ticket__categories_cat_selection {}
+
+.main_ticket__categories_cat_titles {
+	/*Заголовки столбцов в категориях*/
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0.64px;
+	margin-bottom: 30px;
+}
+
+.main_ticket__categories_cat_category {
+	border-bottom: 1px solid black;
+	padding-bottom: 8px;
+	width: 200px;
+}
+
+.main_ticket__categories_cat_category p {}
+
+.main_ticket__categories_cat_rests {
+	display: flex;
+	justify-content: end;
+	border-bottom: 1px solid black;
+	width: 480px;
+}
+
+.main_ticket__categories_cat_rest {}
+
+.price {}
+
+.quant {
+	margin: 0 60px;
+}
+
+.sum {}
+
+
+.main_ticket__categories_type {
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 19px 13px 0;
+	margin-top: 24px;
+}
+
+.main_ticket__categories_type_name {}
+
+.main_ticket__categories_type_name p {
+	letter-spacing: 0.45px;
+}
+
+.main_ticket__categories_type_pqs {
+	display: flex;
+}
+
+.main_ticket__categories_type_price p {
+	text-align: center;
+	font-weight: 300;
+	letter-spacing: 0.45px;
+}
+
+.main_ticket__categories_type_price {
+	/* border: 1px solid red; */
+	width: 60px;
+}
+
+.main_ticket__categories_type_quntity_selection {
+	display: flex;
+	user-select: none;
+	margin: 0 90px;
+}
+
+.main_ticket__categories_type_quntity_selection div {}
+
+.main_ticket__categories_type_quntity_selection div a {
+	width: 9.008px;
+	height: 2px;
+	display: inline-block;
+	background: #000;
+	margin: 12.5px 10px 12.5px 0;
+	cursor: pointer;
+	user-select: none;
+}
+
+.main_ticket__categories_type_quntity_selection a:last-child {
+	margin-left: 10px;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 25px;
+	letter-spacing: 0.6px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.main_ticket__categories_type_quntity_selection_quant {
+	width: 48.041px;
+	height: 25px;
+	border-radius: 5px;
+	border: 0.3px solid #CCC;
+	background: #FFF;
+	box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.main_ticket__categories_type_quntity_selection_quant p {
+	font-weight: 300;
+	letter-spacing: 0.45px;
+	text-align: center;
+	line-height: 23px;
+}
+
+.main_ticket__categories_type_sum p {
+	font-weight: 300;
+	letter-spacing: 0.45px;
+	text-align: center;
+}
+
+.main_ticket__categories_type_sum {
+	width: 62px;
+}
+
+.main_ticket__date_execution {
+	margin-top: 26px;
+}
+
+.main_ticket__date_execution_date {
+	font-size: 16px;
+
+	font-weight: 500;
+	line-height: 28px;
+	/* 175% */
+	letter-spacing: 0.64px;
+}
+
+.main_ticket__date_execution_time {
+
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 28px;
+	letter-spacing: 0.64px;
+}
+
+.main_ticket__form_wrapper {
+	display: flex;
+	flex-direction: column;
+	margin-top: 18px;
+}
+
+.main_ticket__form_sum {
+	font-size: 16px;
+	line-height: 29px;
+	letter-spacing: 0.64px;
+	margin: 8px 0;
+}
+
+.main_ticket__form_sum span {
+	font-weight: 500;
+}
+
+
+.inputStyle {
+	max-width: 870px;
+}
+
+
+.main_ticket__form_fullName p {
+	display: inline-block;
+	margin-left: 30px;
+	color: rgb(209, 55, 55);
+}
+
+.main_ticket__form_phone p {
+	display: inline-block;
+	margin-left: 30px;
+	color: rgb(209, 55, 55);
+}
+
+.main_ticket__form_email p {
+	display: inline-block;
+	margin-left: 30px;
+	color: rgb(209, 55, 55);
+}
+
+
+
+.main_ticket__error{
+	color: rgb(209, 55, 55);
+	margin-bottom: 10px;
+	display: inline;
+}
+.main_ticket__success{
+	display: inline;
+	color: rgb(2, 91, 2);
+	margin-bottom: 10px;
+	margin-top: -10px;
+}
+
+
+
+.inputStyle input {
+	display: inline-block;
+	width: 500px;
+	height: 42px;
+	border-radius: 5px;
+	border: 1px solid #BFBFBF;
+	background: #F8F8F8;
+	box-shadow: 2px 3px 4px 0px rgba(181, 181, 181, 0.15);
+	padding-left: 10px;
+}
+
+.inputStyle:nth-child(2) {
+	margin: 10px 0;
+}
+.inputStyle:nth-child(3){
+	margin-bottom: 18px;
+}
+
+.main_ticket__form_fullName input {}
+
+
+::placeholder {
+	color: #6B6B6B;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 29px;
+	letter-spacing: 0.45px;
+}
+
+.main_ticket__form_submit {
+	width: 208.078px;
+	height: 45px;
+	border-radius: 5px;
+	border: 2px solid #E8E1C1;
+	background: #F8F8F8;
+
+	font-size: 15px;
+	line-height: 29px;
+	letter-spacing: 0.6px;
+	margin-top: 4px;
+}
+
+.main_ticket__form_checkbox{
+font-size: 16px;
+line-height: 29px; 
+letter-spacing: 0.48px;
+}
+
+
+
+

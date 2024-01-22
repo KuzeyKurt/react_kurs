@@ -1,0 +1,39 @@
+.main_about{
+	background: #FBFBFB;
+}
+.main_about__content{
+	padding: 72px 0;
+	margin: 0 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.main_about__text{
+	margin: 18px 47px 0 0;
+}
+.main_about__text_title{
+
+}
+.main_about__text_title p{
+	font-size: 32px;
+	max-width: 542px;
+	margin: 0px 0 37px 0;
+	line-height: 36px;
+}
+.main_about__text_descr{
+
+}
+.main_about__text_descr p{
+	font-size: 18px;
+	max-width: 400px;
+	line-height: 29px; 
+	letter-spacing: 0.54px;
+}
+.main_about__image{
+	max-width: 400px;
+	height: 410px;
+}
+.main_about__image img{
+	max-width: 100%;
+	height: 100%;
+	object-fit: cover;
+}

@@ -1,0 +1,104 @@
+.about{
+	background: #F6F6F6;
+}
+.about__content{
+	padding: 70px 0;
+	margin: 0 10px;
+}
+.about__title{
+	margin-bottom: 50px;
+}
+.about__title p{
+	color: var(--Title, #9C9955);
+	font-size: 32px;
+}
+.about__texts{
+
+}
+.about__texts_about{
+	margin-bottom: 55px;
+}
+.about__texts_about p:first-child{
+	color: #232323;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 36px; /* 150% */
+	letter-spacing: 0.72px;
+	margin-bottom: 5px;
+}
+.about__texts_about p:last-child{
+	color: #232323;
+	font-size: 20px;
+	line-height: 36px;
+	letter-spacing: 0.6px;
+}
+.about__texts_discover{
+	margin-bottom: 55px;
+}
+.about__texts_discover p:first-child{
+	color: #232323;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 36px; /* 150% */
+	letter-spacing: 0.72px;
+	margin-bottom: 5px;
+}
+.about__texts_discover p:last-child{
+	color: #232323;
+	font-size: 20px;
+	line-height: 36px;
+	letter-spacing: 0.6px;
+}
+.about__texts_mission{
+	margin-bottom: 63px;
+}
+.about__texts_mission p:first-child{
+	color: #232323;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 36px; /* 150% */
+	letter-spacing: 0.72px;
+	margin-bottom: 5px;
+}
+.about__texts_mission p:last-child{
+	color: #232323;
+	font-size: 20px;
+	line-height: 36px;
+	letter-spacing: 0.6px;
+}
+.about__quote{
+
+}
+.about__quote_text{
+	margin-bottom: 23px;
+}
+.about__quote_text p{
+	max-width: 626px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 300;
+	line-height: 32px; /* 160% */
+	letter-spacing: 0.6px;
+}
+.about__quote_authorDate{
+border-top: 1px solid #9C9955;
+display: flex;
+flex-direction: column;
+align-items: center;
+max-width: 500px;
+margin: 0 auto;
+padding-top: 22px;
+}
+.about__quote_authorDate p:first-child{
+	font-size: 20px;
+	line-height: 20px; /* 100% */
+	letter-spacing: 0.6px;
+}
+.about__quote_authorDate p:last-child{
+font-size: 12px;
+line-height: 20px;
+letter-spacing: 0.36px;
+}

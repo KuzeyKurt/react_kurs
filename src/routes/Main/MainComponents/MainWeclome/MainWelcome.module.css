@@ -1,0 +1,58 @@
+.main_welcome{
+	background-image: url('../../img/main_background.jpg');
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 94vh;
+	width: 100%;
+	overflow: hidden;
+}
+.main_welcome__content{
+	height: 100%;
+}
+.main_welcome__title_wrapper{
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: end;
+	
+}
+.main_welcome__title{
+	
+
+}
+.main_welcome__title p{
+	font-size: 82px;
+	color: white;
+}
+.main_welcome__ticket{
+	/* border: 1px solid red; */
+	max-width: 1300px;
+	padding: 0 10px;
+	margin: 0 auto;
+	height: 200px;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+}
+.main_welcome__button_wrapper{
+height: 45px;
+width: 208px;
+border-radius: 5px;
+border: 2px solid #DDDBA4;
+background-color: rgba(0,0,0,0.15);
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 2px 6px 4px rgba(0, 0, 0, 0.35); /* x, y, radius*/
+/* margin-top: 120px; */
+}
+.main_welcome__button_text{
+
+}
+.main_welcome__button_text p{
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+}
